@@ -1,0 +1,58 @@
+.fw-option-type-custom-background .fw-backend-option {
+	padding-left: 0px !important;
+}
+
+.fw-option-type-custom-background .fw-backend-option-design-default {
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	padding-right: 10px !important;
+}
+
+
+.fw-option-type-custom-background .fw-backend-option-design-customizer.fw-backend-option-type-slider {
+	margin-left: 15px !important;
+	margin-right: 15px !important;
+}
+
+.fw-option-type-custom-background .fw-backend-option-design-customizer {
+	padding-top: 0px !important;
+}
+
+.fw-option-type-custom-background .fw-backend-option-design-default.fw-backend-option-input-type-radio {
+	padding-top: 3px !important;
+}
+
+.fw-option-type-custom-background .fw-backend-option:last-child {
+	/*padding-bottom: 0px !important;*/
+	border: none;
+}
+
+.fw-option-type-custom-background > .predefined,
+.fw-option-type-custom-background > .custom,
+.fw-option-type-custom-background > .custom-video {
+	/*margin-top: 15px;*/
+}
+
+.fw-option-type-custom-background.no-choices > .type {
+	display: none;
+}
+
+.fw-option-type-custom-background.no-choices > .predefined,
+.fw-option-type-custom-background.no-choices > .custom,
+.fw-option-type-custom-background.no-choices > .custom-video {
+	margin-top: 0px;
+}
+
+.fw-option-type-custom-background > .predefined .predefined-options,
+.fw-option-type-custom-background > .custom .custom-options,
+.fw-option-type-custom-background > .custom-video .custom-video-options {
+	/*margin-top: 15px;
+	border: 1px dashed;*/
+	padding: 5px;
+}
+
+
+.fw-option-type-custom-background .fw-option-type-upload .thumb {
+    width: auto !important;
+    height: auto !important;
+}
